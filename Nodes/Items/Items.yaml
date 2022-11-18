@@ -14,10 +14,10 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Label1"}
-- Name: Button1
+- Name: Button_New
   Type: ObjectLibraryItem
   Children:
-  - Name: Button1
+  - Name: Button_New
     Id: g=ca56f90f3175cacc41aff323e511286a
     Supertype: Button
     ReferenceType: HasComponent
