@@ -1,19 +1,6 @@
 Name: Items
 Type: FolderType
 Children:
-- Name: New_Label
-  Type: ObjectLibraryItem
-  Children:
-  - Name: New_Label
-    Id: g=882b1e904d1a6f44ba88cc440f4cb13c
-    Supertype: Label
-    ReferenceType: HasComponent
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label1"}
 - Name: Button1
   Type: ObjectLibraryItem
   Children:
