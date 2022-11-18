@@ -82,3 +82,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 320.0
+- Name: New_Lable
+  Type: ObjectLibraryItem
+  Children:
+  - Name: New_Lable
+    Id: g=b65757926e0d2291f4d615ff9dddfbfe
+    Supertype: Label
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"New_Label"}
