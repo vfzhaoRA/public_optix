@@ -1,10 +1,10 @@
 Name: Items
 Type: FolderType
 Children:
-- Name: Label1
+- Name: New_Label
   Type: ObjectLibraryItem
   Children:
-  - Name: Label1
+  - Name: New_Label
     Id: g=882b1e904d1a6f44ba88cc440f4cb13c
     Supertype: Label
     ReferenceType: HasComponent
