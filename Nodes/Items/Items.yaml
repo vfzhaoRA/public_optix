@@ -1,10 +1,10 @@
 Name: Items
 Type: FolderType
 Children:
-- Name: Button1
+- Name: Button_New
   Type: ObjectLibraryItem
   Children:
-  - Name: Button1
+  - Name: Button_New
     Id: g=ca56f90f3175cacc41aff323e511286a
     Supertype: Button
     ReferenceType: HasComponent
@@ -82,16 +82,3 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"New_Label"}
-- Name: Button_New
-  Type: ObjectLibraryItem
-  Children:
-  - Name: Button_New
-    Id: g=ce8f4c247d74bcc74c671e505f48b2c4
-    Supertype: Button
-    ReferenceType: HasComponent
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button_New"}
